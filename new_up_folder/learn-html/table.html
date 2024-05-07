@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table입니다~!</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+      }
+      .col1 {
+        background-color: cyan;
+      }
+      .col2 {
+        width: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>테이블 기본</h1>
+    <table>
+      <caption>
+        프로필 테이블
+      </caption>
+      <tr>
+        <thead>
+          <th>취미</th>
+          <th>특기</th>
+          <th>이름</th>
+        </thead>
+      </tr>
+      <tbody>
+        <tr>
+          <td>홍길동</td>
+          <td>도술</td>
+          <td>취미</td>
+        </tr>
+        <tr>
+          <td>이채원</td>
+          <td>걷기</td>
+          <td>걷기</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        학급점수
+      </caption>
+      <colgroup>
+        <col class="col1" />
+        <col class="col2" />
+        <col class="col3" />
+        <col class="col4" />
+        <col class="col5" />
+        <col class="col6" />
+      </colgroup>
+      <tr>
+        <th>반</th>
+        <th>이름</th>
+        <th>국</th>
+        <th>영</th>
+        <th>수</th>
+        <th>코딩</th>
+      </tr>
+      <tr>
+        <td>1반</td>
+        <td>갑을병</td>
+        <td>90</td>
+        <td>0</td>
+        <td>41</td>
+        <td>61</td>
+      </tr>
+      <tr>
+        <td>2반</td>
+        <td>정무기</td>
+        <td>73</td>
+        <td>61</td>
+        <td>48</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>1,2반</td>
+        <td>avg</td>
+        <td>98</td>
+        <td>87</td>
+        <td>76</td>
+        <td>65</td>
+      </tr>
+    </table>
+  </body>
+</html>

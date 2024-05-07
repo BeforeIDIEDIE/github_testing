@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>img</title>
+  </head>
+  <body>
+    <h2>이미지 태그</h2>
+    <img width="200" src="../parrot.jpg" alt="앵무새" />
+    <img height="200" src="../parrot.jpg" alt="앵무새" />
+    <!--상대경로 현재 코드의 위치 기준 으로 작성
+    예를 들어 앵무새 사진의 경우 현재 코드의 상위경로의 상위경로에 위치
+    그럼 ..을 찍고/앵무새 사진명.jpg
+    하위 폴더에 사진이 있으면 하위폴더/사진명.jpg-->
+    <img height="200" src="./parrot.jpg" alt="앵무새" />
+    <img height="200" src="parrot.jpg" alt="앵무새" />
+    <img src="c:\Users\82109\Downloads\html연습용.jpg" alt="앵무새 캡처" />
+    <img height="200" src="under_folder/html연습용.jpg" alt="앵무새" />
+  </body>
+</html>
